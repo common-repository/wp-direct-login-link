@@ -1,0 +1,246 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Magic Link Login\n"
+"POT-Creation-Date: 2019-02-26 17:56+0200\n"
+"PO-Revision-Date: 2016-11-22 12:43+0200\n"
+"Last-Translator: \n"
+"Language-Team: Pixolette <support@pixolette.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;_n;_x;_ex;_nx;esc_attr__;esc_attr_e;esc_attr_x;"
+"esc_html__;esc_html_e;esc_html_x;_n_noop;_nx_noop;translate_nooped_plural\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: node_modules\n"
+
+#: controllers/class-magic.php:40 controllers/class-magic.php:56
+#: controllers/class-magic.php:72
+msgid "Email addres is not allowed."
+msgstr ""
+
+#: controllers/class-magic.php:95
+msgid "The login link is on it's way. Please check your inbox."
+msgstr ""
+
+#: controllers/class-magic.php:113
+msgid ""
+"Hello! You asked for a magic link for an easy login on our website. Here it "
+"is: "
+msgstr ""
+
+#: controllers/class-magic.php:119
+msgid "Magic Login Link you asked for"
+msgstr ""
+
+#: controllers/class-magic.php:134
+msgid "Invalid link"
+msgstr ""
+
+#: controllers/class-magic.php:140
+msgid "You must login from the same IP"
+msgstr ""
+
+#: controllers/class-magic.php:153
+msgid "An error occured. Please refresh the page or request new link."
+msgstr ""
+
+#: controllers/class-magic.php:159
+msgid "Expired link"
+msgstr ""
+
+#: controllers/class-main.php:194 controllers/class-main.php:206
+msgid "Please submit a valid email address"
+msgstr ""
+
+#: controllers/class-main.php:260
+msgid "Please set a value between 1 and 1440"
+msgstr ""
+
+#: controllers/class-main.php:277 controllers/class-main.php:282
+msgid "You must submit a redirect url"
+msgstr ""
+
+#: views/be-main.php:17
+msgid "WP Magic Link Login"
+msgstr ""
+
+#: views/be-main.php:19
+msgid ""
+"Allow users to login and register without password. Send them login link via "
+"email. Secure and simple."
+msgstr ""
+
+#: views/be-main.php:27
+msgid "Magic Link Login functionality is:"
+msgstr ""
+
+#: views/be-main.php:31
+msgid "Enabled"
+msgstr ""
+
+#: views/be-main.php:35
+msgid "Disabled"
+msgstr ""
+
+#: views/be-main.php:41
+msgid "Magic link form should:"
+msgstr ""
+
+#: views/be-main.php:45
+msgid "Replace the login form"
+msgstr ""
+
+#: views/be-main.php:49
+msgid "Diplayed below login form"
+msgstr ""
+
+#: views/be-main.php:54
+msgid "Link validity (minutes)"
+msgstr ""
+
+#: views/be-main.php:62
+msgid "Display Magic Link Form for WooCommerce pages?"
+msgstr ""
+
+#: views/be-main.php:66
+msgid "Display"
+msgstr ""
+
+#: views/be-main.php:70
+msgid "Do not display"
+msgstr ""
+
+#: views/be-main.php:76
+msgid "User should login from the same IP that requested Magic Link?"
+msgstr ""
+
+#: views/be-main.php:80
+msgid "Yes"
+msgstr ""
+
+#: views/be-main.php:84
+msgid "No"
+msgstr ""
+
+#: views/be-main.php:89
+msgid "Alloweded users to login"
+msgstr ""
+
+#: views/be-main.php:93
+msgid "Only registered users"
+msgstr ""
+
+#: views/be-main.php:97
+msgid "All users"
+msgstr ""
+
+#: views/be-main.php:104
+msgid "Assign role for new users"
+msgstr ""
+
+#: views/be-main.php:112
+msgid "On successful login, redirect user to:"
+msgstr ""
+
+#: views/be-main.php:116
+msgid "Profile page"
+msgstr ""
+
+#: views/be-main.php:120
+msgid "Custom url"
+msgstr ""
+
+#: views/be-main.php:124
+msgid "Page"
+msgstr ""
+
+#: views/be-main.php:129
+msgid "Redirect to this url:"
+msgstr ""
+
+#: views/be-main.php:133
+msgid "Redirect to this page:"
+msgstr ""
+
+#: views/be-main.php:151
+msgid "Allowed domains to login"
+msgstr ""
+
+#: views/be-main.php:155
+msgid "All"
+msgstr ""
+
+#: views/be-main.php:159
+msgid "Only specific domains"
+msgstr ""
+
+#: views/be-main.php:163
+msgid "Only specific emails"
+msgstr ""
+
+#: views/be-main.php:169
+msgid "Allowed domains"
+msgstr ""
+
+#: views/be-main.php:175 views/be-main.php:181 views/be-main.php:194
+#: views/be-main.php:200
+msgid "Remove"
+msgstr ""
+
+#: views/be-main.php:184 views/be-main.php:203
+msgid "Add New Entry"
+msgstr ""
+
+#: views/be-main.php:188
+msgid "Allowed emails"
+msgstr ""
+
+#: views/be-main.php:207
+msgid "Email subject:"
+msgstr ""
+
+#: views/be-main.php:211
+msgid "Email sender (FROM):"
+msgstr ""
+
+#: views/be-main.php:215
+msgid "Email Content:"
+msgstr ""
+
+#: views/be-main.php:216
+msgid ""
+"Use the shortcode {{WPMLL_LINK}} to display the magic link. If it's not used "
+"in email content, it will be appended automatically at the end of the email. "
+"For example, you can use it like this: "
+msgstr ""
+
+#: views/be-main.php:217
+msgid "Click here to login"
+msgstr ""
+
+#: views/be-main.php:225
+msgid "Save"
+msgstr ""
+
+#: views/wpmll-form.php:26
+msgid "Magic Link"
+msgstr ""
+
+#: views/wpmll-form.php:28
+msgid ""
+"Login without password: send the one time unique login link to your email "
+"and login with 1 click"
+msgstr ""
+
+#: views/wpmll-form.php:33
+msgid "Email address"
+msgstr ""
+
+#: views/wpmll-form.php:38
+msgid "Send me the link"
+msgstr ""
